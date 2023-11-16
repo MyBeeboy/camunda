@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "subtype": "date",
+      "dateLabel": "วันจ่ายงาน",
+      "label": "Date time",
+      "type": "datetime",
+      "layout": {
+        "row": "Row_1x30ky4",
+        "columns": null
+      },
+      "id": "Field_09kends",
+      "key": "datetime_gcyfxn"
+    },
+    {
+      "values": [
+        {
+          "label": "Docker",
+          "value": "docker"
+        },
+        {
+          "label": "AWS",
+          "value": "aws"
+        },
+        {
+          "label": "Linux",
+          "value": "linux"
+        },
+        {
+          "label": "อื่นๆ",
+          "value": "other"
+        }
+      ],
+      "label": "ประเภทงาน",
+      "type": "select",
+      "layout": {
+        "row": "Row_05ub33h",
+        "columns": null
+      },
+      "id": "Field_1l70q3f",
+      "key": "type_work",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "แก้ไข confix",
+          "value": "conf"
+        },
+        {
+          "label": "แก้ไขข้อมูล",
+          "value": "edit"
+        },
+        {
+          "label": "อัพข้อมูล",
+          "value": "update"
+        },
+        {
+          "label": "สร้าง RDS",
+          "value": "rds"
+        },
+        {
+          "label": "สร้าง EC2",
+          "value": "ec2"
+        },
+        {
+          "label": "MySql",
+          "value": "import"
+        },
+        {
+          "label": "Oracle",
+          "value": "oracle"
+        },
+        {
+          "label": "สร้าง docker",
+          "value": "build"
+        },
+        {
+          "label": "Backup",
+          "value": "backup"
+        },
+        {
+          "label": "ทำเทสเบส",
+          "value": "bt"
+        }
+      ],
+      "label": "การทำงาน",
+      "type": "select",
+      "layout": {
+        "row": "Row_0enajt4",
+        "columns": null
+      },
+      "id": "Field_1pzsjo4",
+      "key": "work",
+      "validate": {
+        "required": true
+      },
+      "defaultValue": "<none>",
+      "searchable": false,
+      "properties": {},
+      "readonly": false
+    },
+    {
+      "label": "รายละเอียดงานที่ทำ",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_033728l",
+        "columns": null
+      },
+      "id": "Field_167834k",
+      "key": "details_work"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1t758t7",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.16.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.20.0",
+  "schemaVersion": 11
+}
